@@ -54,14 +54,14 @@ INFO    : Runestone Services via online CDN query: version 7.9.8
 INFO    : Downloading Runestone Services, version 7.9.8
 INFO    : Extracting Runestone Services from archive file
 INFO    : Building custom css theme: theme-tacoma
-INFO    : converting /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx to HTML in /tmp/ptx-8k55v2wt
+INFO    : converting /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx to HTML in /tmp/ptx-ia1goblt
 INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/pretext-html.xsl
 INFO    : messages from the log for XSL processing:
 INFO    : * PTX:INFO:   checking ONLY the last TWO YEARS of element deprecations.
 Rerun with the string parameter "author.deprecations.all" set to "yes" to check your source against all deprecations.
 INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/pretext-html.xsl
-INFO    : Removing temporary directory /tmp/ptx-8k55v2wt
-INFO    : Removing temporary directory /tmp/ptx-g9sq33xl
+INFO    : Removing temporary directory /tmp/ptx-ia1goblt
+INFO    : Removing temporary directory /tmp/ptx-f3cdift9
 INFO    : 
 Finished build for target web. Run `pretext view web` to see the results.
 

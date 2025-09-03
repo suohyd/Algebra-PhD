@@ -55,7 +55,7 @@
         We show the associativity of multiplication. Let <m>\phi,\psi,\zeta\in RG</m>. Then, there exists <m>r_i,s_j,t_k\in R</m> such that <m>\phi=\sum\chi_{g_i}r_i</m>, <m>\psi=\sum\chi_{g_j}s_j</m>, <m>\zeta=\sum\chi_{g_k}t_k</m>. Therefore, we obtain the following.
         <md>
             <mrow> \left(\phi\psi\right)\zeta\amp =\left(\left(\sum\chi_{g_i}r_i\right)\left(\sum\chi_{g_j}s_j\right)\right)\sum\chi_{g_k}t_k</mrow>
-            <mrow> =\amp \sum\left((\chi_{g_i}\chi_{g_j})\chi_{g_k}\right)(r_is_jt_k)</mrow>
+            <mrow> \amp = \sum\left((\chi_{g_i}\chi_{g_j})\chi_{g_k}\right)(r_is_jt_k)</mrow>
             <mrow> \amp =\sum\chi_{g_i}\left(\chi_{g_j}\chi_{g_k}\right)(r_is_jt_k) </mrow>
             <mrow> \amp =\phi\left(\psi\zeta\right)</mrow>
         </md>
