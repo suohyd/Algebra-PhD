@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-group-algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Group algebra</title>
+  <definition xml:id="def-group-algebra">
+    <title>Group Ring</title>
+    
+    
+    <statement>
+        <p>
+            Let <m>R</m> be a commutative ring with unity and <m>G</m> a group. Consider the following set.
+            <me>
+                RG=\{\phi\in\Hom{Sets}{G}{R}:\phi(g)=0\quad\text{for almost all }\,x\in G\}
+            </me>
+            Define <sq>addition</sq> and <sq>scalar multiplication</sq> in <m>RG</m> as follows.
+            <me>
+                (\phi r+\psi s)(g)=\phi(g)r+\psi(g)s
+            </me>
+            The <sq>multiplication</sq> in <m>RG</m> is defined as convolution product.
+            <me>
+                (\phi\psi)(g)=\sum \phi(h)\psi(h^{-1}g)\quad\text{such that}\quad h\in G,\text{ and } \phi(h)\psi(h^{-1}g)\neq 0
+            </me>
+            
+        </p>
+    </statement>
+  </definition>
+  <exercise>
+    <statement>
+        <p>
+            Show that <m>RG</m> is closed under addition, scalar multiplication, and it is an <m>R</m>-module. Furthermore, show that multiplication is bilinear.
+        </p>
+    </statement>
+  </exercise>
+  <p>
+    We now proceed to check the associativity of multiplication and the existence of unity in <m>RG</m>. We first observe that <m>RG</m> is a free <m>R</m>-module.
+  </p>
+  <proposition xml:id="prop-group-algebra-free-module">
+    <statement>
+        <p>
+            Keep notations of <xref ref="def-group-algebra"/> above. Let for <m>g\in G</m>, <m>\chi_g</m> be the characteristic function of <m>g</m>, i.e., <m>\chi_g(h)=0</m> if <m>h\neq g</m> and <m>\chi_g(g)=1</m>. Then, set <m>\{\chi_g:g\in G\}</m> is an <m>R</m>-basis of <m>RG</m>. In particular, <m>RG</m> is a free <m>R</m>-module.
+        </p>
+        <p>
+            Furthermore, <m>G\to RG</m> given by <m>g\mapsto\chi_g</m> is a monoid homomorphism. In particular, <m>\chi_g\chi_h=\chi_{gh}</m> and if <m>e\in G</m> is the identity then, <m>\chi_e</m> is the unity in <m>RG</m>.
+        </p>
+    </statement>
+  </proposition>
+  <proof>
+    <p>
+        Suppose that <m>\sum\chi_{g_i}r_i=0</m> for some <m>g_i\in G</m> and <m>r_i\in R</m>. Evaluating at <m>g_j</m>, we get <m>r_j=0</m>. Thus, the set is linearly independent. Now, let <m>\phi\in RG</m>. Then, we can write <m>\phi=\sum\chi_g\phi(g)</m> where the sum is over all <m>g\in G</m> such that <m>\phi(g)\neq 0</m>. This shows that the set spans <m>RG</m>. Thus, it is an <m>R</m>-basis of <m>RG</m>.
+    </p>
+    <p>
+        Direct calculation shows that <m>\chi_g\chi_h=\chi_{gh}</m> for all <m>g,h\in G</m>.
+    </p>
+    <p>
+        We show the associativity of multiplication. Let <m>\phi,\psi,\zeta\in RG</m>. Then, there exists <m>r_i,s_j,t_k\in R</m> such that <m>\phi=\sum\chi_{g_i}r_i</m>, <m>\psi=\sum\chi_{g_j}s_j</m>, <m>\zeta=\sum\chi_{g_k}t_k</m>. Therefore, we obtain the following.
+        <md>
+            <mrow> \left(\phi\psi\right)\zeta\amp =\left(\left(\sum\chi_{g_i}r_i\right)\left(\sum\chi_{g_j}s_j\right)\right)\sum\chi_{g_k}t_k</mrow>
+            <mrow> =\amp \left((\chi_{g_i}\chi_{g_j})\chi_{g_k}\right)(r_is_jt_k)</mrow>
+            <mrow> \amp =\chi_{g_i}\left(\chi_{g_j}\chi_{g_k}\right)(r_is_jt_k) </mrow>
+            <mrow> \amp =\phi\left(\psi\zeta\right)</mrow>
+        </md>
+        This shows the associativity of multiplication.
+    </p>
+    <p>
+        For any <m>\chi_{g_i}a_i\in RG</m> we get the following.
+        <md>
+            <mrow>\left((\chi_{g_i}a_i)\chi_e\right)(h) \amp =\sum\chi_{g_i}a_i(x)\chi_e(x^{-1}h)</mrow>
+        </md>
+        The above equation is nonzero only when <m>x=g_i</m> and <m>x^{-1}h=e</m>. This implies that <m>h=g_i</m>. Thus, we get <m>\left((\chi_{g_i}a_i)\chi_e\right)(h)=\chi_{g_i}a_i(h)</m>. Similarly, we can show that <m>\left(\chi_e(\chi_{g_i}a_i)\right)(h)=\chi_{g_i}a_i(h)</m>. This shows that <m>\chi_e</m> is the unity in <m>RG</m>.
+    </p>
+  </proof>
+</section>

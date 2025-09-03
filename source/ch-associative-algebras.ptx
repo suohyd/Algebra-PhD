@@ -10,5 +10,6 @@
   <!-- include sections -->
   <xi:include href="sec-algebra.ptx" />
   <xi:include href="sec-examples-algebras.ptx" />
+  <xi:include href="sec-group-algebra.ptx" />
 
 </chapter>
