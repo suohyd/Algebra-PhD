@@ -136,6 +136,51 @@ var ptx_lunr_docs = [
   "body": " Polynomial ring as algebra   Let be a commutative ring with unity. The polynomial ring is an -algebra.   "
 },
 {
+  "id": "sec-group-algebra",
+  "level": "1",
+  "url": "sec-group-algebra.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "Group algebra",
+  "body": " Group algebra   Group Ring   Let be a commutative ring with unity and a group. Consider the following set. Define addition and scalar multiplication in as follows. The multiplication in is defined as convolution product.       Show that is closed under addition, scalar multiplication, and it is an -module. Furthermore, show that multiplication is bilinear.    We now proceed to check the associativity of multiplication and the existence of unity in . We first observe that is a free -module.    Keep notations of above. Let for , be the characteristic function of , i.e., if and . Then, set is an -basis of . In particular, is a free -module.  Furthermore, given by is a monoid homomorphism. In particular, and if is the identity then, is the unity in .     Suppose that for some and . Evaluating at , we get . Thus, the set is linearly independent. Now, let . Then, we can write where the sum is over all such that . This shows that the set spans . Thus, it is an -basis of .  Direct calculation shows that for all .  We show the associativity of multiplication. Let . Then, there exists such that , , . Therefore, we obtain the following. This shows the associativity of multiplication.  For any we get the following. The above equation is nonzero only when and . This implies that . Thus, we get . Similarly, we can show that . This shows that is the unity in .   "
+},
+{
+  "id": "def-group-algebra",
+  "level": "2",
+  "url": "sec-group-algebra.html#def-group-algebra",
+  "type": "Definition",
+  "number": "1.3.1",
+  "title": "Group Ring.",
+  "body": " Group Ring   Let be a commutative ring with unity and a group. Consider the following set. Define addition and scalar multiplication in as follows. The multiplication in is defined as convolution product.    "
+},
+{
+  "id": "sec-group-algebra-3",
+  "level": "2",
+  "url": "sec-group-algebra.html#sec-group-algebra-3",
+  "type": "Checkpoint",
+  "number": "1.3.2",
+  "title": "",
+  "body": "  Show that is closed under addition, scalar multiplication, and it is an -module. Furthermore, show that multiplication is bilinear.   "
+},
+{
+  "id": "prop-group-algebra-free-module",
+  "level": "2",
+  "url": "sec-group-algebra.html#prop-group-algebra-free-module",
+  "type": "Proposition",
+  "number": "1.3.3",
+  "title": "",
+  "body": "  Keep notations of above. Let for , be the characteristic function of , i.e., if and . Then, set is an -basis of . In particular, is a free -module.  Furthermore, given by is a monoid homomorphism. In particular, and if is the identity then, is the unity in .   "
+},
+{
+  "id": "sec-group-algebra-6",
+  "level": "2",
+  "url": "sec-group-algebra.html#sec-group-algebra-6",
+  "type": "Proof",
+  "number": "1.3.1",
+  "title": "",
+  "body": " Suppose that for some and . Evaluating at , we get . Thus, the set is linearly independent. Now, let . Then, we can write where the sum is over all such that . This shows that the set spans . Thus, it is an -basis of .  Direct calculation shows that for all .  We show the associativity of multiplication. Let . Then, there exists such that , , . Therefore, we obtain the following. This shows the associativity of multiplication.  For any we get the following. The above equation is nonzero only when and . This implies that . Thus, we get . Similarly, we can show that . This shows that is the unity in .  "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
