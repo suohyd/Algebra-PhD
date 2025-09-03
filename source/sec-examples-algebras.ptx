@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-examples-algebras" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Some examples of algebras</title>
+  <example xml:id="ex-ring-over-itself">
+    <title>Ring as an algebra over itself</title>
+    
+    
+    <statement>
+        <p>
+            Let <m>R</m> be a commutative ring with unity. Then <m>R</m> can be considered a right <m>R</m>-module using the multiplication in ring <m>R</m>. With this considerations, <m>R</m> is an <m>R</m>-algebra.
+        </p>
+    </statement>
+  </example>
+  <example xml:id="ex-algebra-over-center">
+    <title>Ring over its center</title>
+    
+    
+    <statement>
+        <p>
+            Suppose that <m>A</m> is a ring (not necessarily commutative), and let <m>Z(A)</m> be the center of <m>A</m>. Then <m>A</m> is a <m>Z(A)</m>-algebra.
+        </p>
+    </statement>
+  </example>
+  <example xml:id="ex-matrix-algebra">
+    <title>Matrix algebra</title>
+    
+    
+    <statement>
+        <p>
+            Suppose that <m>R</m> is a commutative ring and <m>n</m> is a positive integer. Then the ring of <m>n\times n</m> matrices over <m>A</m>, denoted by <m>M_n(A)</m>, is an <m>A</m>-algebra.
+        </p>
+    </statement>
+  </example>
+</section>

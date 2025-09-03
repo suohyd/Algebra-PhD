@@ -73,6 +73,42 @@ var ptx_lunr_docs = [
   "body": " If is an -algebra then, we define a map by for any . It is easy to see that is a ring homomorphism and is contained in the center of . Conversely, suppose that is a ring and there is a ring homomorphism such that is contained in the center of . We consider the right -module structure on given by for any and . Then, it is easy to see that the relation in (2) holds. Therefore, by , we conclude that is an -algebra.  "
 },
 {
+  "id": "sec-examples-algebras",
+  "level": "1",
+  "url": "sec-examples-algebras.html",
+  "type": "Section",
+  "number": "1.2",
+  "title": "Some examples of algebras",
+  "body": " Some examples of algebras   Ring as an algebra over itself   Let be a commutative ring with unity. Then can be considered a right -module using the multiplication in ring . With this considerations, is an -algebra.     Ring over its center   Suppose that is a ring (not necessarily commutative), and let be the center of . Then is a -algebra.      Suppose that is a commutative ring and is a positive integer. Then the ring of matrices over , denoted by , is an -algebra.    "
+},
+{
+  "id": "ex-ring-over-itself",
+  "level": "2",
+  "url": "sec-examples-algebras.html#ex-ring-over-itself",
+  "type": "Example",
+  "number": "1.2.1",
+  "title": "Ring as an algebra over itself.",
+  "body": " Ring as an algebra over itself   Let be a commutative ring with unity. Then can be considered a right -module using the multiplication in ring . With this considerations, is an -algebra.   "
+},
+{
+  "id": "ex-algebra-over-center",
+  "level": "2",
+  "url": "sec-examples-algebras.html#ex-algebra-over-center",
+  "type": "Example",
+  "number": "1.2.2",
+  "title": "Ring over its center.",
+  "body": " Ring over its center   Suppose that is a ring (not necessarily commutative), and let be the center of . Then is a -algebra.   "
+},
+{
+  "id": "ex-matrix-algebra",
+  "level": "2",
+  "url": "sec-examples-algebras.html#ex-matrix-algebra",
+  "type": "Example",
+  "number": "1.2.3",
+  "title": "",
+  "body": "  Suppose that is a commutative ring and is a positive integer. Then the ring of matrices over , denoted by , is an -algebra.   "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",

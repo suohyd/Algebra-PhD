@@ -1,0 +1,15 @@
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+ERROR   : XInclude Error caused build to fail:
+ERROR   : <string>:0:0:WARNING:IO:IO_LOAD_ERROR: failed to load external entity "file:/D:/PreTeXt/Algebra-PhD/source/sec-examples-algebras"
+file:/D:/PreTeXt/Algebra-PhD/source/ch-associative-algebras.ptx:12:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load file:/D:/PreTeXt/Algebra-PhD/source/sec-examples-algebras, and no fallback was found
+CRITICAL: XML syntax for source file is invalid
+INFO    : ------------------------
+CRITICAL: Failed to build without errors.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------
