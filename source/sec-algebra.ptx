@@ -55,4 +55,22 @@
       Conversely, assume that <m>A</m> is a ring and a right <m>R</m>-module such that for any <m>x,y\in A</m> and <m>r\in R</m>, we have <m>(xr)y=x(yr)=(xy)r</m>. We consider a map <m>m\colon A\times A\to A</m> as the multiplication in ring <m>A</m>. Therefore, <m>m(x+y,z)=m(x,z)+m(y,z)</m> (resp., <m>m(x,y+z)=m(x,y)+m(x,z)</m>) for any <m>x,y,z\in A</m> and also there is a unity in ring <m>A</m>. The <m>R</m>-linearity of the map <m>m</m> follows from the relation <m>(xr)y=x(yr)=(xy)r</m>, i.e., <m>m(xr,y)=m(x,yr)=(x,y)r</m>.
     </p>
   </proof>
+  <lemma xml:id="lem-algebra-in-center">
+    <statement>
+      <p>
+        <ol>
+          <li>
+            <p>
+              If <m>A</m> is an <m>R</m> algebra then, there is a ring homomorphism <m>f\colon R\to A</m> such that <m>f(R)</m> is contained in the center of <m>A</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              Suppose that <m>A</m> is a ring and there is a ring homomorphism <m>f\colon R\to A</m> such that <m>f(R)</m> is contained in the center of <m>A</m>. Then, <m>A</m> is an <m>R</m>-algebra with the right <m>R</m>-module structure given by <m>xr=xf(r)</m> for any <m>x\in A</m> and <m>r\in R</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </lemma>
 </section>
