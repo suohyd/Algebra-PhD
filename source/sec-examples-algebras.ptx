@@ -2,6 +2,15 @@
 
 <section xml:id="sec-examples-algebras" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Some examples of algebras</title>
+  <example>
+    <title>Associative ring as <m>\Z</m>-algbera</title>
+    <statement>
+        <p>
+            Every associative ring <m>A</m> can be considered as a <m>\Z</m>-algebra.
+        </p>
+    </statement>
+    
+  </example>
   <example xml:id="ex-ring-over-itself">
     <title>Ring as an algebra over itself</title>
     
@@ -28,7 +37,26 @@
     
     <statement>
         <p>
-            Suppose that <m>R</m> is a commutative ring and <m>n</m> is a positive integer. Then the ring of <m>n\times n</m> matrices over <m>A</m>, denoted by <m>M_n(A)</m>, is an <m>A</m>-algebra.
+            Suppose that <m>R</m> is a commutative ring and <m>n</m> is a positive integer. Suppose that <m>A</m> is an <m>R</m>-algebra. Then the ring of <m>n\times n</m> matrices over <m>A</m>, denoted by <m>M_n(A)</m>, is an <m>R</m>-algebra.
+        </p>
+    </statement>
+  </example>
+  <example xml:id="ex-endomorphism-algebra">
+    <title>Endomorphism algebra</title>
+    
+    
+    <statement>
+        <p>
+            Let <m>R</m> be a commutative ring with unity. Suppose that <m>M</m> is a right <m>R</m>-module. The endomorphism ring <m>\End_R(M)</m> is an <m>R</m>-algebra. 
+        </p>
+    </statement>
+  </example>
+  <example xml:id="ex-polynomial-algebra">
+    <title>Polynomial ring as algebra</title>
+    
+    <statement>
+        <p>
+            Let <m>R</m> be a commutative ring with unity. The polynomial ring <m>R[X]</m> is an <m>R</m>-algebra.
         </p>
     </statement>
   </example>

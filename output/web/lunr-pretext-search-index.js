@@ -79,14 +79,23 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Some examples of algebras",
-  "body": " Some examples of algebras   Ring as an algebra over itself   Let be a commutative ring with unity. Then can be considered a right -module using the multiplication in ring . With this considerations, is an -algebra.     Ring over its center   Suppose that is a ring (not necessarily commutative), and let be the center of . Then is a -algebra.      Suppose that is a commutative ring and is a positive integer. Then the ring of matrices over , denoted by , is an -algebra.    "
+  "body": " Some examples of algebras   Associative ring as -algbera   Every associative ring can be considered as a -algebra.     Ring as an algebra over itself   Let be a commutative ring with unity. Then can be considered a right -module using the multiplication in ring . With this considerations, is an -algebra.     Ring over its center   Suppose that is a ring (not necessarily commutative), and let be the center of . Then is a -algebra.     Matrix algebra   Suppose that is a commutative ring and is a positive integer. Suppose that is an -algebra. Then the ring of matrices over , denoted by , is an -algebra.     Endomorphism algebra   Let be a commutative ring with unity. Suppose that is a right -module. The endomorphism ring is an -algebra.     Polynomial ring as algebra   Let be a commutative ring with unity. The polynomial ring is an -algebra.    "
+},
+{
+  "id": "sec-examples-algebras-2",
+  "level": "2",
+  "url": "sec-examples-algebras.html#sec-examples-algebras-2",
+  "type": "Example",
+  "number": "1.2.1",
+  "title": "Associative ring as <span class=\"process-math\">\\(\\Z\\)<\/span>-algbera.",
+  "body": " Associative ring as -algbera   Every associative ring can be considered as a -algebra.   "
 },
 {
   "id": "ex-ring-over-itself",
   "level": "2",
   "url": "sec-examples-algebras.html#ex-ring-over-itself",
   "type": "Example",
-  "number": "1.2.1",
+  "number": "1.2.2",
   "title": "Ring as an algebra over itself.",
   "body": " Ring as an algebra over itself   Let be a commutative ring with unity. Then can be considered a right -module using the multiplication in ring . With this considerations, is an -algebra.   "
 },
@@ -95,7 +104,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-examples-algebras.html#ex-algebra-over-center",
   "type": "Example",
-  "number": "1.2.2",
+  "number": "1.2.3",
   "title": "Ring over its center.",
   "body": " Ring over its center   Suppose that is a ring (not necessarily commutative), and let be the center of . Then is a -algebra.   "
 },
@@ -104,9 +113,27 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-examples-algebras.html#ex-matrix-algebra",
   "type": "Example",
-  "number": "1.2.3",
-  "title": "",
-  "body": "  Suppose that is a commutative ring and is a positive integer. Then the ring of matrices over , denoted by , is an -algebra.   "
+  "number": "1.2.4",
+  "title": "Matrix algebra.",
+  "body": " Matrix algebra   Suppose that is a commutative ring and is a positive integer. Suppose that is an -algebra. Then the ring of matrices over , denoted by , is an -algebra.   "
+},
+{
+  "id": "ex-endomorphism-algebra",
+  "level": "2",
+  "url": "sec-examples-algebras.html#ex-endomorphism-algebra",
+  "type": "Example",
+  "number": "1.2.5",
+  "title": "Endomorphism algebra.",
+  "body": " Endomorphism algebra   Let be a commutative ring with unity. Suppose that is a right -module. The endomorphism ring is an -algebra.   "
+},
+{
+  "id": "ex-polynomial-algebra",
+  "level": "2",
+  "url": "sec-examples-algebras.html#ex-polynomial-algebra",
+  "type": "Example",
+  "number": "1.2.6",
+  "title": "Polynomial ring as algebra.",
+  "body": " Polynomial ring as algebra   Let be a commutative ring with unity. The polynomial ring is an -algebra.   "
 },
 {
   "id": "backmatter-2",

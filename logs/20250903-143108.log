@@ -1,0 +1,36 @@
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+INFO    : XSL conversion of D:\PreTeXt\Algebra-PhD\source\main.ptx by C:\Users\Abhay\.ptx\2.29.0\core\xsl\utilities\pretext-enhanced-source.xsl
+INFO    : successful application of C:\Users\Abhay\.ptx\2.29.0\core\xsl\utilities\pretext-enhanced-source.xsl
+INFO    : Generating any needed assets.
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into D:\PreTeXt\Algebra-PhD\output\web.
+INFO    : discovering source file's directory name: D:\PreTeXt\Algebra-PhD\source
+INFO    : verifying and expanding input directory: D:\PreTeXt\Algebra-PhD\source\../generated-assets
+INFO    : input directory expanded to absolute path: D:\PreTeXt\Algebra-PhD\generated-assets
+INFO    : verifying and expanding input directory: D:\PreTeXt\Algebra-PhD\source\../assets
+INFO    : input directory expanded to absolute path: D:\PreTeXt\Algebra-PhD\assets
+INFO    : XSL conversion of D:\PreTeXt\Algebra-PhD\source\main.ptx by C:\Users\Abhay\.ptx\2.29.0\core\xsl\utilities\report-publisher-variables.xsl
+INFO    : successful application of C:\Users\Abhay\.ptx\2.29.0\core\xsl\utilities\report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 7.9.8
+INFO    : Downloading Runestone Services, version 7.9.8
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-tacoma
+INFO    : converting D:\PreTeXt\Algebra-PhD\source\main.ptx to HTML in C:\Users\Abhay\AppData\Local\Temp\ptx-vnkbltbn
+INFO    : XSL conversion of D:\PreTeXt\Algebra-PhD\source\main.ptx by C:\Users\Abhay\.ptx\2.29.0\core\xsl\pretext-html.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * PTX:INFO:   checking ONLY the last TWO YEARS of element deprecations.
+Rerun with the string parameter "author.deprecations.all" set to "yes" to check your source against all deprecations.
+INFO    : successful application of C:\Users\Abhay\.ptx\2.29.0\core\xsl\pretext-html.xsl
+INFO    : Removing temporary directory C:\Users\Abhay\AppData\Local\Temp\ptx-vnkbltbn
+INFO    : Removing temporary directory C:\Users\Abhay\AppData\Local\Temp\ptx-c86517qx
+INFO    : 
+Finished build for target web. Run `pretext view web` to see the results.
+
+INFO    : 
+Success!  Built requested target(s) without errors.
+
+INFO    : 
