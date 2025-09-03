@@ -1,5 +1,5 @@
-file:/D:/PreTeXt/Algebra-PhD/source/main.ptx:12:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element nbsp, got nothing
-file:/D:/PreTeXt/Algebra-PhD/source/main.ptx:11:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element blockquote, got p
-file:/D:/PreTeXt/Algebra-PhD/source/main.ptx:11:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element p there
-file:/D:/PreTeXt/Algebra-PhD/source/main.ptx:11:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got p
-file:/D:/PreTeXt/Algebra-PhD/source/main.ptx:11:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element p, got nothing
+/home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx:12:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element nbsp, got nothing
+/home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx:11:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element blockquote, got p
+/home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx:11:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element p there
+/home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx:11:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got p
+/home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx:11:0:ERROR:RELAXNGV:RELAXNG_ERR_NOELEM: Expecting an element p, got nothing
