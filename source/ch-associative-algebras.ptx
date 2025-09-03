@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-associative-algebras" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Associative Algebras</title>
+
+  <introduction>
+    <p> We follow <q>Associative algebra</q> by R. S. Pierce. We do not claim any originality for the content.</p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-algebra.ptx" />
+
+</chapter>

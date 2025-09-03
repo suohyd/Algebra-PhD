@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Algebra over a commutative ring</title>
+
+  <p> We begin with a definition of <em>algebra</em> over a commutative ring.</p>
+  <definition xml:id="def-algebra">
+    <title>Associative algebra</title>
+    
+    
+    <statement>
+      <p>
+        Let <m>R</m> be a commutative ring with unity <m>1_R</m>. An <term><m>R</m>-algebra</term> or algebra over <m>R</m> is a unital right <m>R</m>-module <m>A</m> together with <m>R</m>-bilinear map <m>A\times A\to A</m> denoted by <m>(x,y)\mapsto xy</m> that is associative, i.e., <m>(xy)z=x(yz)</m> for all <m>x,y,z\in A</m>, and there is a unity <m>1_A\in A</m> such that <m>1_Rx=x1_R=x</m> for all <m>x\in A</m>.
+      </p>
+    </statement>
+  </definition>
+  <observation xml:id="obs-algebra">
+    <statement>
+      <p>
+        The bilinearlity of the map <m>A\times A\to A</m> in <xref ref="def-algebra"/> implies the following relation for any <m>x,y\in A</m> and any <m>r\in R</m>.
+        <men xml:id="eqn-algebra">
+          (xr)y=x(yr)=(xy)r
+        </men>
+        
+      </p>
+    </statement>
+  </observation>
+  <p>
+    We have the following equivalent definition of <m>R</m>-algebra.
+  </p>
+  <proposition xml:id="prop-algebra-equiv-def">
+    <statement>
+      <p>
+        Following statements are equivalent.
+        <ol>
+          <li>
+            <p>
+              <m>A</m> is an <m>R</m>-algebra
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>A</m> is a ring and a right <m>R</m>-module such that for any <m>x,y\in A</m> and <m>r\in R</m>, we have <m>(xr)y=x(yr)=(xy)r</m>.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </proposition>
+  <proof>
+    <p>
+      Assume that <m>A</m> is an <m>R</m>-algebra. Then <m>A</m> is a ring with the multiplication given by the <m>R</m>-bilinear map <m>A\times A\to A</m>. Indeed, the associativity of the multiplication follows from the definition. The distributivity of the multiplication over addition follows from the bilinearity of the map. The existence of unity is also given in the definition. The relation <m>(xr)y=x(ry)=(xy)r</m> follows from <xref ref="obs-algebra"/>.
+    </p>
+    <p>
+      Conversely, assume that <m>A</m> is a ring and a right <m>R</m>-module such that for any <m>x,y\in A</m> and <m>r\in R</m>, we have <m>(xr)y=x(yr)=(xy)r</m>. We consider a map <m>m\colon A\times A\to A</m> as the multiplication in ring <m>A</m>. Therefore, <m>m(x+y,z)=m(x,z)+m(y,z)</m> (resp., <m>m(x,y+z)=m(x,y)+m(x,z)</m>) for any <m>x,y,z\in A</m> and also there is a unity in ring <m>A</m>. The <m>R</m>-linearity of the map <m>m</m> follows from the relation <m>(xr)y=x(yr)=(xy)r</m>, i.e., <m>m(xr,y)=m(x,yr)=(x,y)r</m>.
+    </p>
+  </proof>
+</section>
