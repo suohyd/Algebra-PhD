@@ -7,3 +7,6 @@ INFO    : Initializing project with Git.
 INFO    : Successfully initialized new Git repository!
 INFO    : Preparing to deploy from active `main` git branch.
 
+INFO    : Changes to project source since last commit detected.
+INFO    : Committing these changes to local Git repository.
+
