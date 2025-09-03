@@ -73,4 +73,9 @@
       </p>
     </statement>
   </lemma>
+  <proof>
+    <p>
+      If <m>A</m> is an <m>R</m>-algebra then, we define a map <m>f\colon R\to A</m> by <m>f(r)=1_Ar</m> for any <m>r\in R</m>. It is easy to see that <m>f</m> is a ring homomorphism and <m>f(R)</m> is contained in the center of <m>A</m>. Conversely, suppose that <m>A</m> is a ring and there is a ring homomorphism <m>f\colon R\to A</m> such that <m>f(R)</m> is contained in the center of <m>A</m>. We consider the right <m>R</m>-module structure on <m>A</m> given by <m>xr=xf(r)</m> for any <m>x\in A</m> and <m>r\in R</m>. Then, it is easy to see that the relation in <xref ref="prop-algebra-equiv-def"/>(2) holds. Therefore, by <xref ref="prop-algebra-equiv-def"/>, we conclude that <m>A</m> is an <m>R</m>-algebra.
+    </p>
+  </proof>
 </section>
