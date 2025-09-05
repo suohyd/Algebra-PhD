@@ -316,6 +316,42 @@ var ptx_lunr_docs = [
   "body": " Subalgebra   Let be a commutative ring with unity. Let be an -algebra. An -algebra is called an -subalgebra of if and the inclusion map is an -algebra homomorphism.   "
 },
 {
+  "id": "sec-bimodule",
+  "level": "1",
+  "url": "sec-bimodule.html",
+  "type": "Section",
+  "number": "1.5",
+  "title": "Bimodules",
+  "body": " Bimodules  Suppose that is a right -algebra, and that is a right -module. Then, is also a right -module. Similarly, if is a left -algebra, and is a left -module, then is also a left -module.   (A,B) bimodule   Let be a commutative ring with unity. Let and be right -algebras. An -bimodule is an abelian group which is both a left -module and a right -module such that for all , , and we have the following compatibility conditions.      We sometimes denote the -bimodule by . Furthermore, if , then we say that is an -bimodule .     Let be a commutative ring with unity, and let be a right -algebra. Let be a left -module. Then, is -bimodule.    "
+},
+{
+  "id": "def-bimodule",
+  "level": "2",
+  "url": "sec-bimodule.html#def-bimodule",
+  "type": "Definition",
+  "number": "1.5.1",
+  "title": "(A,B) bimodule.",
+  "body": " (A,B) bimodule   Let be a commutative ring with unity. Let and be right -algebras. An -bimodule is an abelian group which is both a left -module and a right -module such that for all , , and we have the following compatibility conditions.    "
+},
+{
+  "id": "sec-bimodule-4",
+  "level": "2",
+  "url": "sec-bimodule.html#sec-bimodule-4",
+  "type": "Note",
+  "number": "1.5.2",
+  "title": "",
+  "body": " We sometimes denote the -bimodule by . Furthermore, if , then we say that is an -bimodule .  "
+},
+{
+  "id": "sec-bimodule-5",
+  "level": "2",
+  "url": "sec-bimodule.html#sec-bimodule-5",
+  "type": "Example",
+  "number": "1.5.3",
+  "title": "",
+  "body": "  Let be a commutative ring with unity, and let be a right -algebra. Let be a left -module. Then, is -bimodule.   "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",

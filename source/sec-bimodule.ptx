@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-bimodule" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Bimodules</title>
+    
+    <p>
+        Suppose that <m>A</m> is a right <m>R</m>-algebra, and that <m>N</m> is a right <m>A</m>-module. Then, <m>N</m> is also a right <m>R</m>-module. Similarly, if <m>B</m> is a left <m>R</m>-algebra, and <m>N'</m> is a left <m>B</m>-module, then <m>N'</m> is also a left <m>R</m>-module.
+    </p>
+    <definition xml:id="def-bimodule">
+        <title>(A,B) bimodule</title>
+
+        <statement>
+            <p>
+                Let <m>R</m> be a commutative ring with unity. Let <m>A</m> and <m>B</m> be right <m>R</m>-algebras. An <em><m>(A,B)</m>-bimodule</em> is an abelian group <m>M</m> which is both a left <m>A</m>-module and a right <m>B</m>-module such that for all <m>a\in A</m>, <m>b\in B</m>, <m>r\in R</m> and <m>m\in M</m> we have the following compatibility conditions.
+                <me>
+                    (am)b = a(mb)\quad\text{and}\quad rm = mr.
+                </me>
+            </p>
+        </statement>
+    </definition>
+    <note>
+        <p>
+            We sometimes denote the <m>(A,B)</m>-bimodule <m>M</m> by <m>_AM_B</m>. Furthermore, if <m>A=B</m>, then we say that <m>M</m> is an <em><m>A</m>-bimodule</em>.
+        </p>
+    </note>
+    <example>
+        <statement>
+            <p>
+                Let <m>R</m> be a commutative ring with unity, and let <m>A</m> be a right <m>R</m>-algebra. Let <m>M</m> be a left <m>A</m>-module. Then, <m>M</m> is <m>(\End{A}{M},A)</m>-bimodule.
+            </p>
+        </statement>
+    </example>
+    </section>
