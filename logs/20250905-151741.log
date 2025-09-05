@@ -1,0 +1,71 @@
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Generating any needed assets.
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into /home/abhay/Documents/PreTeXt/Algebra-PhD/output/web.
+INFO    : discovering source file's directory name: /home/abhay/Documents/PreTeXt/Algebra-PhD/source
+INFO    : verifying and expanding input directory: /home/abhay/Documents/PreTeXt/Algebra-PhD/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/abhay/Documents/PreTeXt/Algebra-PhD/generated-assets
+INFO    : verifying and expanding input directory: /home/abhay/Documents/PreTeXt/Algebra-PhD/source/../assets
+INFO    : input directory expanded to absolute path: /home/abhay/Documents/PreTeXt/Algebra-PhD/assets
+INFO    : discovering source file's directory name: /home/abhay/Documents/PreTeXt/Algebra-PhD/source
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 7.9.10
+INFO    : Downloading Runestone Services, version 7.9.10
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-tacoma
+INFO    : converting /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx to HTML in /tmp/ptx-4egt7zn_
+INFO    : XSL conversion of /home/abhay/Documents/PreTeXt/Algebra-PhD/source/main.ptx by /home/abhay/.ptx/2.29.0/core/xsl/pretext-html.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * PTX:INFO:   checking ONLY the last TWO YEARS of element deprecations.
+Rerun with the string parameter "author.deprecations.all" set to "yes" to check your source against all deprecations.
+INFO    : successful application of /home/abhay/.ptx/2.29.0/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /tmp/ptx-4egt7zn_
+INFO    : Removing temporary directory /tmp/ptx-edzzxii7
+INFO    : 
+Finished build for target web. Run `pretext view web` to see the results.
+
+INFO    : 
+Success!  Built requested target(s) without errors.
+
+INFO    : 

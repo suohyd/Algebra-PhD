@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-morphisms-of-algebras" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Morphisms of algebras</title>
+  <definition xml:id="def-morphism-of-algebras">
+    <title>Homomorphism <m>R</m>-algebras</title>
+    <statement>
+        <p>
+            Let <m>R</m> be a commutative ring with unity. Let <m>A</m> and <m>B</m> be <m>R</m>-algebras. An <em>R-algebra homomorphism</em> (or simply, a <em>morphism of <m>R</m>-algebras</em>) <m>\phi:A\to B</m> is a map which is both a ring homomorphism and an <m>R</m>-module homomorphism.
+        </p>
+        <p>
+            An <m>R</m>-algebra homomorphism from <m>A</m> to itself is called an <em>endormorphism of <m>R</m>-algebras</em>. The set of all endomorphisms of <m>R</m>-algebras is denoted by <m>\End{R}{A}</m>.
+        </p>
+    </statement>
+  </definition>
+  <example xml:id="ex-regular-representation">
+    <title>Regular representation</title>
+    <statement>
+        <p>
+            Let <m>F</m> be a field, and let <m>A</m> be an <m>F</m>-algebra. For <m>a\in A</m> we define an <m>F</m>-linear map <m>L_a\colon A\to A</m> by <m>L_a(x)=ax</m> for all <m>x\in A</m>. The following map is called the <em>regular representation</em> of <m>A</m>.
+            <me>
+                A\to\End{F}{A},\quad\text{given by}\quad a\mapsto L_a.
+            </me>
+            We leave it to the reader to verify that the regular representation is a homomorphism of <m>F</m>-algebras.
+        </p>
+        <p>
+            Note that as <m>A</m> is unital <m>L_a\in\End{F}{A}</m> is nonzero for all nonzero <m>a\in A</m>. Thus, the regular representation is injective.
+        </p>
+    </statement>
+  </example>
+  <exercise xml:id="exe-quotient-algebra">
+    <title>Quotient algebra</title>
+    <statement>
+        <p>
+            Let <m>R</m> be a commutative ring with unity. Let <m>A</m> be an <m>R</m>-algebra. Show that the quotient <m>A/I</m> is an <m>R</m>-algebra for any ideal <m>I</m> of <m>A</m>. Furthermore, show that the natural projection <m>\pi:A\to A/I</m> is an <m>R</m>-algebra homomorphism.
+        </p>
+        <p>
+            If <m>\phi\colon A\to B</m> is homomorphism of <m>R</m>-algebras, then show that <m>\ker(\phi)</m> is an ideal of <m>A</m> and that the image of <m>\phi</m> is an <m>R</m>-subalgebra of <m>B</m>. Furthermore, show that <m>A/\ker(\phi)\simeq {\rm Im}(\phi)</m> as <m>R</m>-algebras.
+        </p>
+    </statement>
+  </exercise>
+  <exercise xml:id="exe-factorization-criterion">
+    <title>Factorization criterion</title>
+    <statement>
+        <p>
+            Let <m>R</m> be a commutative ring with unity. Let <m>\phi\colon A\to B</m> and <m>\psi\colon A\to C</m> be homomorphisms of <m>R</m>-algebras with <m>\phi</m> surjective. Show that <m>\psi</m> factors through <m>\phi</m> (i.e., there exists a homomorphism of <m>R</m>-algebras <m>\theta\colon B\to C</m> such that <m>\psi=\theta\circ\phi</m> if and only if <m>\ker(\phi)\subseteq\ker(\psi)</m>. 
+        </p>
+        <figure xml:id="fig-factorization-criterion">
+            <caption>Factorization criterion</caption>
+            <image width="40%">
+                <shortdescription>Factorization criterion diagram</shortdescription>
+                <latex-image>
+                    \begin{tikzcd}
+	                    \amp A \\
+	                    B \amp\amp C
+	                    \arrow["\phi"', two heads, from=1-2, to=2-1]
+	                    \arrow["\psi", from=1-2, to=2-3]
+	                    \arrow["\theta"'', dashed, from=2-1, to=2-3]
+                    \end{tikzcd}
+                </latex-image>
+            </image>
+        </figure>
+        <p>
+            In other words, there exists a dotted arrow (<m>R</m>-algebra homomorphism <m>\theta</m>) making the above diagram commutative if and only if <m>\ker(\phi)\subseteq\ker(\psi)</m>.
+        </p>
+    </statement>
+  </exercise>
+  <definition xml:id="def-isomorphism-of-algebras">
+    <title>Isomorphism of <m>R</m>-algebras</title>
+    <statement>
+        <p>
+            Let <m>R</m> be a commutative ring with unity. Let <m>A</m> and <m>B</m> be <m>R</m>-algebras. An <m>R</m>-algebra homomorphism <m>\phi:A\to B</m> is an <em>isomorphism of <m>R</m>-algebras</em> if there exists an <m>R</m>-algebra homomorphism <m>\psi:B\to A</m> such that <m>\psi\circ\phi=\unit_A</m> and <m>\phi\circ\psi=\unit_B</m>. In this case, we say that <m>A</m> and <m>B</m> are <em>isomorphic as <m>R</m>-algebras</em> and we write <m>A\simeq B</m>.
+        </p>
+        <p>
+            An <m>R</m>-algebra isomorphism from <m>A</m> to itself is called an <em>automorphism of <m>R</m>-algebras</em>. The set of all automorphisms of <m>R</m>-algebras is denoted by <m>\Aut{R}{A}</m>.
+        </p>
+    </statement>
+  </definition>
+  <definition xml:id="def-subalgebra">
+    <title>Subalgebra</title>
+    <statement>
+        <p>
+            Let <m>R</m> be a commutative ring with unity. Let <m>A</m> be an <m>R</m>-algebra. An <m>R</m>-algebra <m>B</m> is called an <em><m>R</m>-subalgebra</em> of <m>A</m> if <m>B\subseteq A</m> and the inclusion map <m>B\hookrightarrow A</m> is an <m>R</m>-algebra homomorphism.
+        </p>
+    </statement>
+  </definition>
+</section>

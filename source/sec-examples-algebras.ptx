@@ -47,7 +47,7 @@
     
     <statement>
         <p>
-            Let <m>R</m> be a commutative ring with unity. Suppose that <m>M</m> is a right <m>R</m>-module. The endomorphism ring <m>\End_R(M)</m> is an <m>R</m>-algebra. 
+            Let <m>R</m> be a commutative ring with unity. Suppose that <m>M</m> is a right <m>R</m>-module. The endomorphism ring <m>\End{R}{M}</m> is an <m>R</m>-algebra. 
         </p>
     </statement>
   </example>
